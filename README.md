@@ -15,10 +15,10 @@ PCL>=1.8. Follow [PCL Installation](https://pointclouds.org/).
 ### 2.3 Eigen
 Eigen >= 3.3.4. Follow [Eigen Installation](https://libeigen.gitlab.io/).
 
-### 2.3 Sophus
+### 2.4 Sophus
 We use templated version here. Follow [Sophus Installation](https://github.com/strasdat/Sophus).
 
-### 2.4 livox_ros_driver
+### 2.5 livox_ros_driver
 Follow [Livox Installation](https://github.com/Livox-SDK/livox_ros_driver2).
 
 ## 3. Build
