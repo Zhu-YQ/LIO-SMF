@@ -35,6 +35,7 @@ catkin_make
 
 
 ## 5. Acknowledgments
+We sincerely express our gratitude for the following marvelous open-source works!
 - [FAST-LIO2](https://github.com/hku-mars/FAST_LIO)
 - [KISS-ICP](https://github.com/PRBonn/kiss-icp)
 - [SAD Book](https://github.com/gaoxiang12/slam_in_autonomous_driving)
