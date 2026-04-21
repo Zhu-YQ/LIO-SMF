@@ -33,8 +33,9 @@ catkin_make
 
 ## 4. Run
 
+## 5. Citaion
 
-## 5. Acknowledgments
+## 6. Acknowledgment
 We sincerely express our gratitude for the following marvelous open-source works!
 - [FAST-LIO2](https://github.com/hku-mars/FAST_LIO)
 - [KISS-ICP](https://github.com/PRBonn/kiss-icp)
