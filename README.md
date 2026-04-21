@@ -1,7 +1,7 @@
 # LIO-SMF
 Our code will be released if the paper is accepted.
 
-# 1. System Oveview
+## 1. System Oveview
 
 
 ## 2. Prerequisited
@@ -21,10 +21,18 @@ We use templated version here. Follow [Sophus Installation](https://github.com/s
 ### 2.4 livox_ros_driver
 Follow [Livox Installation](https://github.com/Livox-SDK/livox_ros_driver2).
 
-# 3. Build
+## 3. Build
+```
+cd your_ros_ws
+mkdir src
+cd src
+git clone https://github.com/Zhu-YQ/LIO-SMF.git
+cd ..
+catkin_make
+```
+
+## 4. Run
 
 
-# 4. Run
-
-
-# 5. Acknowledgments
+## 5. Acknowledgments
+`[FAST-LIO2](https://github.com/hku-mars/FAST_LIO)
