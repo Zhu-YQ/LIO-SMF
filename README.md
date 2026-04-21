@@ -7,7 +7,7 @@ Our code will be released if the paper is accepted.
 ## 2. Prerequisited
 
 ### 2.1 Ubuntu and ROS
-Ubuntu 18.04~20.04. Follow [ROS Installation](http://wiki.ros.org/ROS/Installation).
+Ubuntu 18.04 or 20.04. Follow [ROS Installation](http://wiki.ros.org/ROS/Installation).
 
 ### 2.2 PCL
 PCL>=1.8. Follow [PCL Installation](https://pointclouds.org/). 
