@@ -34,6 +34,17 @@ catkin_make
 ## 4. Run
 
 ## 5. Citaion
+```
+@misc{zhu2026liosmf,
+      title={Safety-Critical LiDAR-Inertial Odometry with On-Manifold Deterministic Protection Level}, 
+      author={Yueqi Zhu and Yan Pan and Chufan Rui and Jiasheng Luo and Shihua Li and Bo Zhou},
+      year={2026},
+      eprint={2605.09383},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2605.09383}, 
+}
+```
 
 ## 6. Acknowledgment
 We sincerely express our gratitude for the following marvelous open-source works!
