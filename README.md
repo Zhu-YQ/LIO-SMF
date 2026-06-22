@@ -1,7 +1,7 @@
 # LIO-SMF
 Our code will be released if the paper is accepted.
 
-Paper Link: https://arxiv.org/abs/2605.09383
+Paper Link: [arXiv version](https://arxiv.org/abs/2605.09383)
 
 
 ## 1. System Oveview
