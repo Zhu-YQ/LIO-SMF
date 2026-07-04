@@ -5,7 +5,7 @@ Paper Link: [arXiv version](https://arxiv.org/abs/2605.09383)
 
 
 ## 1. System Oveview
-
+![](./assets/pipeline.png)
 
 ## 2. Prerequisited
 
