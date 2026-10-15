@@ -1,0 +1,17 @@
+<!-- roslaunch lio_smf run_mid360.launch -->
+
+<launch>
+    <node pkg="lio_smf" type="lio_node" name="lio_node" output="screen" />
+
+    <rosparam command="load" file="$(find lio_smf)/configs/mid360.yaml" />
+    <param name="save_path" value="$(find lio_smf)/results" />
+
+    <param name="/use_sim_time" value="true" />
+
+    <arg name="bag_file" default="path/to/your/bag" />
+    
+    <node pkg="rosbag" type="play" name="rosbag_play" args="--clock -r 2 $(arg bag_file)" />
+
+    <node pkg="rviz" type="rviz" name="rviz" respawn="true" args="-d $(find lio_smf)/configs/mid360.rviz" />
+
+</launch>

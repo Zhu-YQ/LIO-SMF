@@ -1,0 +1,36 @@
+lidar:
+    topic: "/livox/lidar"
+    type: 1             # 1 for Livox LiDAR, 2 for Velodyne LiDAR, 3 for ouster LiDAR
+    scan_line: 4
+    timestamp_unit: 2   # 0-second, 1-milisecond, 2-microsecond, 3-nanosecond.
+    
+    blind_min: 0.5
+    blind_max: 1000
+    
+    range_bound: 0.1    # m
+    bearing_bound: 0.2  # deg
+
+imu:
+    topic: "/livox/imu"
+
+    acc_bound: 0.10962960549060001
+    ba_bound: 0.01299
+    gyr_bound: 0.1102190119716
+    bg_bound: 0.01
+
+    gravity_align: true
+
+# T_imu_lidar
+extrinsic_t: [ -0.011, -0.02329, 0.04412 ]
+extrinsic_R: [ 1.0,  0.0,  0.0,
+               0.0,  1.0,  0.0,
+               0.0,  0.0,  1.0]
+
+icp:
+    point_filter_num: 4
+    max_iteration: 15
+
+    lumped_trans: 0.2
+    lumped_rot: 0.5
+
+    
