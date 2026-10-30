@@ -45,7 +45,7 @@ roslaunch lio_smf run_ntuviral.launch
 ```
 @misc{zhu2026liosmf,
       title={Safety-Critical LiDAR-Inertial Odometry with On-Manifold Deterministic Protection Level}, 
-      author={Yueqi Zhu and Yan Pan and Chufan Rui and Jiasheng Luo and Shihua Li and Bo Zhou},
+      author={Yueqi Zhu and Yan Pan and Chufan Rui and Jiasheng Luo and Bo Zhou},
       year={2026},
       eprint={2605.09383},
       archivePrefix={arXiv},
