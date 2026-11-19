@@ -6,6 +6,15 @@ Paper Link: [arXiv version](https://arxiv.org/abs/2605.09383)
 ## 1. System Oveview
 ![](./assets/pipeline.png)
 
+<p align="center">
+  <img src="./assets/uav.gif" alt="UAV demo" width="49%">
+  <img src="./assets/wheeled.gif" alt="Wheeled robot demo" width="49%">
+</p>
+<p align="center">
+  <img src="./assets/mav.gif" alt="MAV demo" width="49%">
+  <img src="./assets/handheld.gif" alt="Handheld demo" width="49%">
+</p>
+
 ## 2. Prerequisited
 
 ### 2.1 Ubuntu and ROS
